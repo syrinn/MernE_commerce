@@ -1,0 +1,35 @@
+.login {
+  margin: 100px auto;
+  display: grid;
+  width: 500px;
+
+  height: 100%;
+}
+.addproduit,
+.addcategorie {
+  margin: 100px auto;
+}
+
+.list__menue {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: flex-end;
+  right: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.page__notFound {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+}
